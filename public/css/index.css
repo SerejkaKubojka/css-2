@@ -23,11 +23,12 @@
 
 .lesson-four-task-six .btn:focus {
     color: orange;
+    background-color: orange;
 }
 
 .lesson-four-task-seven #target:target {
-    color: yellow;
-    background-color: blue;
+    color: green;
+    background-color: green;
 }
 
 #checkbox:checked+#target {
@@ -76,7 +77,7 @@
     background-color: red !important;
 }
 
-.lesson-four-task-nineteen div:focus-within {
+.lesson-four-task-nineteen button:focus-within {
     background-color: yellow;
     color: #fff;
 }
